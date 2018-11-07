@@ -1,0 +1,381 @@
+html {
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+
+body {
+  background-image: linear-gradient(#50c0f0 6%, #8ad1f0 10%, #eefbff 51%);
+  background-repeat: no-repeat;
+  max-height: 100%;
+  max-width: 100%;
+  color: #0d5c8d;
+  padding: 0;
+  text-align: center;
+  overflow: scroll;
+  letter-spacing: .5px;
+}
+
+.navbar-collapse.collapse {
+  display: block !important;
+}
+
+.navbar-nav>li,
+.navbar-nav {
+  float: left !important;
+}
+
+.navbar-nav.navbar-right:last-child {
+  margin-right: -15px !important;
+}
+
+.navbar-right {
+  float: right !important;
+}
+
+a.nav-item.nav-link {
+  color: #0d5c8d;
+}
+
+a:focus,
+a.hover,
+.navbar-expand-lg .navbar-nav .nav-link:focus,
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  color: #1c7be1;
+  text-decoration: none;
+}
+
+
+.footer {
+  font-family: 'europa';
+  font-size: 25px;
+  color: #0d5c8d;
+  height: 200px;
+  left: 0;
+  margin-top: 60px;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.welcome {
+  font-size: 40px;
+  font-family: 'europa';
+  color: #0d5c8d;
+  padding: 55px;
+  text-align: center;
+}
+
+.img-mandala {
+  max-width: 100px;
+  margin: 10px auto 10px auto;
+}
+
+.img-smallmandala {
+  max-width: 40px;
+  margin: 25px auto 25px auto;
+  display: block;
+}
+
+.img-main {
+  max-width: 65%;
+  max-height: 575px;
+  margin: 30px auto 25px auto;
+  opacity: 0.95;
+  display: block;
+}
+
+.img-buddah {
+  position: absolute;
+  margin: 0 auto 0 auto;
+}
+
+.img-buddah-1,
+.img-buddah-2 {
+  width: 34em;
+  height: auto;
+  margin: 30px 0 30px 0;
+}
+
+.img-buddah-1 {
+  position: relative;
+  left: 15%;
+}
+
+.img-buddah-2 {
+  position: relative;
+  right: -15%;
+}
+
+.contacts {
+  position: relative;
+  right: 0;
+  font-family: 'europa';
+  font-size: 27px;
+  margin: 10px auto 10px auto 0;
+  text-align: center;
+}
+
+.img-contacts {
+  max-height: 37rem;
+  margin: 3% auto 3% auto;
+  display: block;
+}
+
+.navbar {
+  width: 100%;
+  margin-top: 3%;
+  position: sticky;
+  letter-spacing: 5px;
+  font-family: 'europa';
+  font-size: 20px;
+}
+
+.logo-header {
+  font-size: 65px;
+  font-family: 'Neuton', serif;
+  text-shadow: 2px 2px 8px #ffffff;
+  margin-top: -10px;
+  color: #0d5c8d;
+  text-align: center;
+}
+
+h4 {
+  font-size: 40px;
+  font-family: 'europa';
+  margin-top: 100px 0 100px 0;
+  color: #0d5c8d;
+}
+
+.header {
+  font-size: 60px;
+  font-family: 'europa';
+  color: #0d5c8d;
+  font-family: 'Satisfy';
+}
+
+.header-wrapper {
+  font-family: 'Satisfy';
+  color: #0d5c8d;
+  text-align: center;
+  font-size: 40px;
+  padding: 17px;
+  width: 100%;
+  border-bottom: 0px solid #0d5c8d;
+  margin: 0px auto 20px auto;
+  background-image: linear-gradient(#ffffff 3%, #b8e4ff 26%, #ffffff 73%);
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+h6 {
+  font-family: 'europa';
+  font-size: 20px;
+}
+
+.main {
+  flex: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 0%;
+}
+
+.bo {
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.bo {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+.header-wrapper {
+  animation: fadein 5s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+.main-container {
+  background-color: white;
+  width: 80%;
+  padding-bottom: 0;
+  margin: 20px auto 0 auto;
+  display: block;
+  border: 1px solid #b8e4ff;
+  min-height: 810px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+.fakeimg {
+  background-color: grey;
+  width: 50%;
+  padding: 2px;
+  margin: 40px auto 0 auto;
+}
+
+.tjanster-content {
+  padding: 2%;
+  text-align: justify;
+  font-family: 'europa';
+  font-size: 25px;
+  margin: 0 10% 0 10%;
+}
+
+ul.tjanster-list {
+  padding: 10px 10px 10px 10px;
+  text-align: left;
+  font-family: 'europa';
+  font-weight: bold;
+  font-size: 22px;
+  margin-left: 15%;
+  list-style-type: circle;
+}
+
+
+button.navbar-toggler {
+  font-size: 3.5em;
+  height: 1.5em;
+}
+
+
+.containts-section,
+.containts-section-2 {
+  padding: 1%;
+  text-align: justify;
+  font-family: 'europa';
+  font-size: 25px;
+  margin: 0 50px 0 50px;
+  text-align: justify;
+}
+
+.containts-section-2 {
+  text-align: left;
+}
+
+
+@media only screen and (min-width: 992px) {
+  .tjanster-content {
+    padding: 10px 40px 10px 40px;
+    margin: 0 150px 0 150px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .image {
+    padding: 1%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .img-contacts {
+    padding: 0;
+    max-width: 40%;
+    max-height: 40rem;
+    margin: 1% auto 1% 20%;
+    display: block;
+    float: left;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .img-mandala {
+    max-width: 100px;
+  }
+}
+
+
+@media only screen and (min-width: 992px) {
+  .img-anna {
+    height: 15rem;
+    margin: 10px 0 25px 25px;
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .main-container {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .contacts {
+    height: 10rem;
+    margin-top: 2%;
+    margin-bottom: 2.5%;
+    margin-right: 15%;
+    display: block;
+    float: right;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  ul.tjanster-list {
+    text-align: justify;
+    padding: 20px 40px 20px 40px;
+    font-weight: bold;
+    margin-left: 14%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+
+  .containts-section,
+  .containts-section-2 {
+    padding: 20px 60px 20px 60px;
+    margin: 0 100px 0 100px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .logo-header {
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .img-buddah-1 {
+    left: 11%;
+    max-width: 37%;
+    height: auto;
+    margin-right: 2%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .img-buddah-2 {
+    right: -13%;
+    max-width: 37%;
+    height: auto;
+    margin-right: 2%;
+  }
+}
